@@ -1,8 +1,26 @@
 
+<?php  
 
+require "functions.php";
+
+$errors = array();
+
+if($_SERVER['REQUEST_METHOD'] == "POST")
+{
+
+	$errors = signup($_POST);
+
+	if(count($errors) == 0)
+	{
+		header("Location: login.php");
+		die;
+	}
+}
+
+?>
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -117,6 +135,8 @@
             <a href="#" class="text-white px-2" style="text-decoration: none;">How search work</a>
             <a href="#" class="text-white px-2" style="text-decoration: none;">Privacy</a>
         </div>
+
+
     </footer>
 
     <!-- Make password visible or invisible through click: -->
