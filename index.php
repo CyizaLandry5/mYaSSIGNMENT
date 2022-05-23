@@ -47,6 +47,12 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
                 <hr>
 
                 <!-- add some php codes in advance -->
+
+                <?php if(count($errors) > 0):?>
+				<?php foreach ($errors as $error):?>
+					<?= $error?> <br>	
+				<?php endforeach;?>
+			<?php endif;?>
             
             </div>
 
