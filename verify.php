@@ -46,7 +46,7 @@
 					
 					database_run($query);
 
-					header("Location: profile.php");
+					header("Location:  profile.php");
 					die;
 				}else{
 					echo "Code  expired";
