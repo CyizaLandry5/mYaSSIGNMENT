@@ -54,7 +54,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
             
             </div>
 
-            <!-- first and last name -->
+            <!-- first and last name  -->
 
             <form method="post">
                 
