@@ -2,7 +2,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,7 +27,7 @@
                 <h6 class="fw-bold">Can't wait to create an account</h6>
                 <hr>
 
-                <!-- add some php codes in advance -->
+                <!-- add some php codes in advance .... -->
             
             </div>
 
