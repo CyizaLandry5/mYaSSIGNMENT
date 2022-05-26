@@ -57,7 +57,7 @@
                 <div class="border bg-white py-2 px-2  ">
                     <h5 style="padding:7px;">Headlines <i class="fa fa-pencil" aria-hidden="true"></i> </h5> 
                     <hr>
-                    <h6 style="padding:7px;">Software development workers</h6>
+                    <h6 style="padding:7px;">Software Enginner | Data analyst</h6>
                     
                 </div>
                 <div class="div">
@@ -65,7 +65,7 @@
                 </div>
         </div>
         <div class="col-md-5 col-sm-12 px-3 h-30">
-                <li class="text-center border-top border-info border-1 shadow pb-4"> ACCOUNT SETTINGS </li>  
+                <li class="text-center border-top border-info border-1 shadow pb-4 text-primary fw-bold pt-4 fs-5"> ACCOUNT SETTINGS </li>  
                 <ul class="mt-2">
                 
                 <li class="border-1 border-bottom border-info py-2">
@@ -85,7 +85,7 @@
                     </li>
                     <li class="border-1 border-bottom border-info py-2">
                         <a href="#">
-                            <i class="fa fa-signal" aria-hidden="true" style="font-size:20px;"></i>
+                            <i class="fas fa-sliders-h" aria-hidden="true" style="font-size:20px;"></i>
                              Sign in Activities
                         </a>
                     </li>
@@ -94,6 +94,12 @@
                             <i class="far fa-clock" aria-hidden="true" style="font-size:20px;"></i>
                             <i class="fa fa-warning text-warning" aria-hidden="true" style="font-size:20px;"></i>
                             Session tiomeout
+                        </a>
+                    </li>
+                    <li class="border-1 border-bottom border-info py-2">
+                        <a href="#">
+                            <i class="far fa-heart" aria-hidden="true" style="font-size:20px;"></i>
+                            Memoaliarization
                         </a>
                     </li>
                     <li class="border-1 border-bottom border-info py-2">
@@ -117,7 +123,7 @@
                     <li class="border-1 border-bottom border-info py-2">
                         <a href="deleteA.php">
                             <i class="fa fa-user-times" aria-hidden="true" style="font-size:20px;"></i>
-                             Delete Account
+                             Delete my Account
                         </a>
                     </li>
                     
